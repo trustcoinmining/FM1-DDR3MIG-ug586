@@ -1,0 +1,31 @@
+
+*** Running vivado
+    with args -log example_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source example_top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source example_top.tcl -notrace
+Command: synth_design -top example_top -part xc7k410tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k410t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k410t'
+INFO: [Common 17-86] Your Synthesis license expires in 23 day(s)
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15656 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 497.094 ; gain = 89.953
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-439] module 'example_top' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 551.438 ; gain = 144.297
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 17 14:57:55 2019...
