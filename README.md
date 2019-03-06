@@ -14,8 +14,8 @@ Basic Reference Documents for FM1 7Series Documents::
 Datasheet is [here](./ksf9c256_512x72pz.pdf)
 
 Generated Memory Interface files are located in IP directory and 
-- [Here mig_a.prj](./ug586-memory-if\mig_7series_0_ex\mig_7series_0_ex.srcs\sources_1\ip\mig_7series_0\mig_a.prj) 
-- [Here mig_b.prj](./ug586-memory-if\mig_7series_0_ex\mig_7series_0_ex.srcs\sources_1\ip\mig_7series_0\mig_b.prj) 
+- [Here mig_a.prj](./ug586-memory-if/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_a.prj) 
+- [Here mig_b.prj](./ug586-memory-if/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_b.prj) 
 
 Currently Nobuffer mode has set, It will changed for testing.
 
